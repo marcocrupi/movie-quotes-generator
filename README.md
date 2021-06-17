@@ -15,3 +15,5 @@ Realizzato allo scopo di allenarmi nella programmazione JavaScript, grazie ad es
   <li>Padroneggiare il costrutto condizionale Switch.</li>
   <li>Tramite l'uso dell'operatore Booleano e dello Switch ho imparato a passare ad altre funzioni contenenti altre strutture condizionali che a loro volta mi permettono di tornare al punto di partenza.</li>
 </ul>
+
+Link al progetto: https://marcocrupi.github.io/movie-quotes-generator/
