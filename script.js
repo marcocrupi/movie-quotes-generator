@@ -1,14 +1,13 @@
 
 const inputDigitato = document.getElementById("input");
+
 var inputs = document.querySelectorAll('input');
-var cambioSwitch = true;
 // Insieme a "inputs.forEach(input => input.value = '');" serve a ripulire la casella di input dopo aver premuto enter.
+
+var cambioSwitch = true;
 
 const testoDopoEnter = e => {
     if (e.code === "Enter") {
-        // Maggiori infoo su e.code https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code/code_values
-        // let inputD = inputDigitato.value;
-        // console.log(`'I typed '${inputD}`);
         clearBox();
         // Pulisce il campo di testo dove appaiono le risposte generate.
 
@@ -30,12 +29,10 @@ function verificatore() {
     switch (cambioSwitch) {
 
         case true:
-            console.log("scelta false", Boolean(cambioSwitch));
             datiInput(film);
             break;
 
         case false:
-            console.log("scelta true", Boolean(cambioSwitch));
             datiInput(attori);
             break;
 
@@ -51,12 +48,10 @@ function clearBox() {
 
 function datiInput(callback) {
     const inputF = inputDigitato.value;
-    // console.log("datiInput eseguita", inputF)
     return callback(inputF.toUpperCase());
 }
 
 function film(dati) {
-    // console.log("valore dati", dati);
     switch (true) {
 
         case /ATTORI/.test(dati):
@@ -156,4 +151,3 @@ function attori(dati) {
 }
 
 inputDigitato.addEventListener("keydown", testoDopoEnter);
-//Approfondimento .addEventListener() https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
