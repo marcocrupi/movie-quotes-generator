@@ -7,13 +7,13 @@ Realizzato allo scopo di allenarmi nella programmazione JavaScript, grazie ad es
 
 <ul> 
 <li>Gestire funzioni di CallBack.</li>
+  <li>Passare da una funzione all'altra tramite l'uso dell'operatore Booleano e dello Switch, avrei potuto fare tutto su uno switch ma a scopo didattico ho preferito optare questa soluzione.</li>
   <li>Rendere l'input case insensitive.</li>
   <li>A utilizzare il metodo test() per la verifica della corrispondenza in una stringa.</li>
   <li>Generare una risposta random a un medesimo input.</li>
   <li>Abilitare la sintesi vocale in aggiunta all'output testuale.</li>
-  <li>Ripulire i campi di testo (di input e output nella home).</li>
+  <li>Ripulire i campi di testo (di input e output nella home, per far funzionare il pulsante ho abilitato la pulizia del solo campo di output).</li>
   <li>Padroneggiare il costrutto condizionale Switch.</li>
-  <li>Tramite l'uso dell'operatore Booleano e dello Switch ho imparato a passare ad altre funzioni contenenti altre strutture condizionali che a loro volta mi permettono di tornare al punto di partenza.</li>
 </ul>
 
 Link al progetto: https://marcocrupi.github.io/movie-quotes-generator/
